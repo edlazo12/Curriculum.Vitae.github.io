@@ -1,0 +1,370 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    }
+    
+    header{
+    background-color:#27463D;
+    color: #FFF;
+    padding: 10px 0;
+    }
+    
+    .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1200px;
+    }
+    li a{
+      
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+
+       
+
+    }
+    li a:hover:not(.active) {
+      
+  background-color: #fff;
+  color: #333;
+
+  }
+    
+    .logo img{
+    max-width: 100px;
+    }
+    
+    .nav-links{
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+    
+    .nav-links li{
+        font-weight: bold;
+        
+    }
+    .hero{
+        background-image: url(https://img.freepik.com/fotos-premium/fondos-pantalla-coloridos-iphone-son-mejores-fondos-pantalla-alta-definicion-iphone_894754-149.jpg);
+        background-size: cover;
+        text-align: center
+        padding 100px 0;
+        color: #fff;
+    }
+    .heroe-contente img{
+      
+    width: 15%;
+    margin: auto;
+    padding: auto;
+    display: block;
+    font-weight: bold;
+    border-radius: 30px;
+
+
+    }
+    .cta-button{
+        background-color: #ff6600;
+        color: black;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+    cta-button:hover{
+        background-color: #dd5500;
+    }
+      body th {
+        font-family: "Raleway", sans-serif;
+      }
+      body td {
+        font-family: "Montserrat", sans-serif;
+      }
+      body main  {
+        text-align: center;
+      }
+      body .container {
+        max-width: 700px;
+      }
+      th, td {
+        border: solid  1px black;
+        text-align: center;
+        padding: 10px;
+      }
+      .container{
+        margin: 10px auto;
+        width: 1000px;
+        text-align: center;
+      }
+      thead{
+        background-color: black;
+        border-bottom: solid 5px;
+      }
+      tr:nth-child(even){
+        background-color: #27463D;
+      }
+      
+      .date{
+        margin: 7px auto;
+        width: 600px;
+        text-align: justify;
+        padding: 20px;
+        font-size: 20px;
+    
+      }
+      h2
+      {
+        text-align: center;
+        padding: 10px;
+      }
+      .datos{
+        margin: 7px auto;
+        width: 800px;
+        text-align: justify;
+        padding: 20px;
+        font-size: 20px;
+    
+      }
+      .activity, .cuali, .project{
+        margin: 7px auto;
+        width: 800px;
+        text-align: justify;
+        padding: 20px;
+        font-size: 20px;
+
+      }
+      .project>h2{
+        font-size: 20px;
+
+      }
+      .conta{
+        margin: 7px auto;
+        width: 800px;
+        text-align: justify;
+        padding: 20px;
+        
+      }
+      #mensaje, #comment{
+        width: 400px;
+      }
+      #comment{
+        height: 50px;
+      }
+      #correo {
+        height: 20px;
+        width: 400px;
+      }
+      .txt{
+        font-size: 30px;
+        text-align: center;
+      }
+      .containeros{
+        display: flex;
+        margin: 7px auto;
+        width: 800px;
+        text-align: justify;
+        padding: 20px;
+      }
+      .col-sm-6{
+        padding: 20px;
+        width: 500px;
+        text-align: justify;
+      }
+      .col-sm-7{
+        padding: 20px;
+        width: 600px;
+        text-align: left;
+        
+      }
+      .list-group-item>a{
+        color: black;
+        text-align: left;
+      }
+      .list-group-item{
+        background-color:cadetblue;
+        list-style-type: none;
+        padding: 10px;
+        width: 390px;
+        border: 1px groove ;
+      }
+      .pie {
+        background-color: #27463D;
+        margin: 1000px;
+        margin: auto;
+        
+        text-decoration: none;
+        color: #fff;
+        padding: 5px;
+        text-align: center;
+      
+      }
+      .pie a{
+        color: #FFF;
+      }
+      .heroe-contente>p{
+        display: flex;
+        margin: 7px auto;
+        width: 800px;
+        text-align: justify;
+        padding: 20px;
+
+      }
+      /*** 6.0 - MediaQueries Tableta ***/
+@media (max-width: 600px) {
+  .datosl p {
+    font-size: 7px;
+    margin-bottom: 10px;
+  }
+  .activity{
+    font-size: 7px;
+    margin-bottom: 7px; 
+  }
+  .cuali{
+    font-size: 7px;
+    margin-bottom: 7px;
+
+  }
+  .list-group-item>a{
+    color: black;
+    text-align: left;
+    font-size: 7px;
+    margin-bottom: 7px;
+  }
+  .list-group-item{
+    background-color:cadetblue;
+    list-style-type: none;
+    padding: 10px ;
+    width: 90px;
+    border: 1px groove ;
+    
+
+  }
+  .col-sm-7 h2{
+    font-size: 17px;
+    margin-bottom: 17px;
+    padding-left: 50px;
+    text-align:justify;
+
+  }
+  .project, .date{
+    font-size: 7px;
+    margin-bottom: 7px;
+
+  }
+  .heroe-contente p{
+    font-size: 7px;
+   padding: 5px;
+
+  }
+  .table table-striped table-hover table {
+    font-size: 7px;
+    margin-bottom: 0px;
+
+  }
+  th, td {
+    border: solid  1px black;
+    text-align: left;
+  
+    font-size: 3px;
+    margin-bottom: 0px;
+    
+  }
+
+  .col-sm-6 p{
+    font-size: 7px;
+    margin-bottom: 0px;
+    
+  }
+  .col-sm-6 h2{
+    font-size: 17px;
+    margin-bottom: 0px;
+    
+  }
+  .heroe-contente>img{
+    width: 80px;
+
+  }
+  .nav-links{
+    flex-direction: column;
+    text-align: center;
+
+  }
+  .navbar {
+    
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .logo>img
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1200px;
+
+  }
+  navbar li a{
+ 
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  .pie a{
+    color: #fff;
+  }
+  .containeros{
+    display: block;
+  }
+  h2{
+    text-align: left;
+  }
+  thead{
+    text-align: center;
+  }
+  #mensaje, #comment{
+    width: 290px;
+  }
+  #comment{
+    height: 50px;
+  }
+  #correo {
+    height: 20px;
+    width: 290px;
+  }
+  .txt{
+    text-align: left;
+  }
+}
+
+
+
+      
+      
+
+      
+      
+      
+      
+    
+
+
+
+      
+          
+    
+
+
+
+   
+    
